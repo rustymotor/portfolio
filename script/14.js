@@ -1,4 +1,4 @@
-const sections=gsap.utils.toArray('section');
+const sections=gsap.utils.toArray('.item');
 const main = document.querySelector('main');
 
 const move = gsap.to(sections,{
@@ -9,7 +9,7 @@ const move = gsap.to(sections,{
         pin:true,
         scrub:1,
         // snap:1 / (sections.length - 1),
-        end: () => `+=${main.offsetWidth}`, 
+        end:() => '+=' + document.querySelector('main').offsetWidth,
     }
 });
 console.log(ScrollTrigger.isTouch);
