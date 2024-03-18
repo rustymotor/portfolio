@@ -50,7 +50,7 @@ main {
   color: #333;
   text-align: left;
   z-index: -2;
-  border-right: 1px solid #f00;
+  /* border-right: 1px solid #f00; */
 }
 
 #panel-5 {
