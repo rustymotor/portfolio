@@ -245,6 +245,16 @@ button {
 .pj1_box p {
   width: 70%;
 }
+.pj1_anchor{
+  margin-top:2rem;
+  gap:3rem;
+
+}
+.pj1_anchor a{
+  padding:1rem;
+  border:1px solid black;
+  border-radius:3rem;
+}
 .pj1_mockup {
   position: relative;
   top: 0%;
