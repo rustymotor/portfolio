@@ -1,97 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <style>
-      a,
-      button,
-      input,
-      select,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        border: none;
-        text-decoration: none;
-        appearance: none;
-        background: none;
+<html lang="ko">
 
-        -webkit-font-smoothing: antialiased;
-      }
-    </style>
-    <title>최인혁 포트폴리오</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>최인혁의 포트폴리오</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/exstyle.css">
+  <link rel="stylesheet" href="./css/style_head.css">
+  <!-- <link rel="stylesheet" href="./style_content.css"> -->
+ 
+  
+</head>
+
 <body>
-  <header>
-    <div class="fx">
-      <h1>3-ZIP</h1>
-      <div class="fx">
-        <a href="#home"><h2>Home</h2></a>
-        <a href="#About"><h2>About</h2></a>
-        <a href="#Work"><h2>Work</h2></a>
-        <a href="#Contact"><h2>Contact</h2></a>
-      </div>
-    </div>
-    <div class="scrollto">Scroll to discover</div>
-  </header>
-  <main class="container">
-    <section class="item" id="sec1">
-      <div class="visual">
-        <img src="./img/image-20.png" alt="">
-      </div>
-        <div class="title">
-          <h1>집요 집착 집중<br>3ZIP 최인혁입니다.</h1>
-          <div class="fx">
-            <a href="#work">이력서</a>
-            <a href="#work">깃허브</a>
-          </div>
-        </div>
-    </section>
-    <section class="item" id="sec2">
-      <div class="fx">
-        <div class="fx">
-          
-        </div>
-        <div class="fx">
+    <header id="masthead" class="site-header" role="banner">
+      <h1>3ZIP</h1>
+      <nav class="anchor-nav" role="navigation">
+        <a href="#panel-1" class="anchor">Home</a>
+        <a href="#panel-2" class="anchor">About me</a>
+        <a href="#panel-3" class="anchor">Projects</a>
+        <a href="#panel-4" class="anchor">Contact</a>
+        <a href="#panel-5" class="anchor">Panel 5</a>
+      </nav>
+    </header>
 
-        </div>
-      </div>
-    </section>
-    <section class="item" id="sec3">
-        <div class="aboutme">
-          <h2>about me</h2>
+    <main id="content" role="main">
+
+      <section id="panels">
+
+        <div id="panels-container">
+          <article id="panel-1" class="panel">
+              <div class="visual">
+                <img src="./img/profile2gray.png" alt="">
+              </div>
+                <div class="title">
+                  <h1>집중 집념 집요<br>3ZIP 최인혁입니다.</h1>
+                  <div class="fx">
+                    <a href="#work">이력서</a>
+                    <a href="#work">깃허브</a>
+                  </div>
+                </div>
+          </article>
+          <article id="panel-2" class="panel">
+
+              <h2>코드에 집중하고 집요하게 분석하고<br> 집념으로 해결하는 3ZIP</h2>
+              <div class="text1">
+                <div class="fx">
+                  <div class="edu">
+                    <h3>Education</h3>
+                    <ul>
+                      <li>부산일과학고등학교 졸업</li>
+                      <li>유니스트 졸업 학점 3.6</li>
+                      <li>웹 퍼블리셔 아카데미 과정</li>
+                    </ul>
+                  </div>
+                  <div class="lic">
+                    <h3>Licenses</h3>
+                    <ul>
+                      <li>포토샵 GTQ 1급</li>
+                      <li>웹디자인 기능사</li>
+                      <li>운전면허 1종 보통</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="fx">
+                  <div class="exp">
+                    <h3>Personality</h3>
+                    <ul>
+                      <li></li>
+                      <li>유니스트 졸업 학점 3.6</li>
+                      <li>웹 퍼블리셔 아카데미 과정</li>
+                      <li>웹 퍼블리셔 아카데미 과정</li>
+                    </ul>
+                  </div>
+                  <div class="prog">
+                    <h3>Programs</h3>
+                    <ul>
+                      <li>포토샵 GTQ 1급</li>
+                      <li>웹디자인 기능사</li>
+                      <li>운전면허 1종 보통</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="visual2">
+                <img src="img/profile3gray.png" alt="">
+              </div>
+              
+
+
+              <!-- <button data-target="#panel-1">panel1</button> -->
+          </article> 
+          <article id="panel-3" class="panel">
+                <div class="project_box pa">
+                  <h2>PROJECTS</h2>
+                  <div class="fx">
+                    <div class="pj1"></div>
+                    <div class="pj2"></div>
+                    <div class="pj3"></div>
+                  </div>
+                </div>
+                <div class="project1">
+                  <div class="pj1_visual">
+                  </div>
+                </div>
+            
+                
+          </article>
+          <article id="panel-4" class="panel">
+                <div class="pj1_box pa">
+                  <h2>서울대공원</h2>
+                  <p>HTML과 CSS로 처음으로 제작한 웹사이트입니다. 
+                    웹사이트의 와이어프레임을 대공원이라는 
+                    컨셉에 맞게 리디자인한 프로젝트입니다. 기존 웹사이트의 기능을 온전히
+                    반영하기 위하여 GNB와 사이트맵을 구축하였습니다. 또한 Jquery와
+                  javascript를 사용하여 롤링 슬라이드 배너와 swiper기능을 구현했고
+                웹접근성과 반응형을 구현하였습니다. </p>
+                </div>
+                <div class="pj1_mockup pa">
+                  <div class="pj1_mockup_computer">
+                    <div class="pj1_pic_com"></div>
+                  </div>
+                  <div class="pj1_mockup_phone">
+                    <div class="pj1_pic_phone"></div>
+                  </div>
+                </div>
+                
+          </article>
+          <article id="panel-5" class="panel">
+            <div class="project2">
+              <div class="pj2_visual">
+              </div>
+            <div class="pj2_box pa">
+              <h2>워너디자인 에이전시</h2>
+              <p>HTML과 CSS로 처음으로 제작한 웹사이트입니다. 
+                웹사이트의 와이어프레임을 대공원이라는 
+                컨셉에 맞게 리디자인한 프로젝트입니다. 기존 웹사이트의 기능을 온전히
+                반영하기 위하여 GNB와 사이트맵을 구축하였습니다. 또한 Jquery와
+              javascript를 사용하여 롤링 슬라이드 배너와 swiper기능을 구현했고
+            웹접근성과 반응형을 구현하였습니다. </p>
+            </div>
+            <div class="pj2_mockup pa">
+              <div class="pj2_mockup_computer">
+                <div class="pj2_pic_com"></div>
+              </div>
+              <div class="pj2_mockup_phone">
+                <div class="pj2_pic_phone"></div>
+              </div>
+            </div>
+          </article>
+          <article id="panel-6" class="panel">
+                <h2>Panel 5</h2>
+                <!-- <div class="skills">
+                 
+                </div> -->
+          </article>
+          <article id="panel-7" class="panel">
+                <h2>Panel 7</h2>
+                
+          </article>
           
-        </div>
-    </section>
-    <section class="item" id="sec4">
-        <h2 class="num">4</h2>
-    </section>
-    <section class="item" id="sec5">
-        <h2 class="num">5</h2>
-    </section>
-    <section class="item" id="sec6">
-        <h2 class="num">6</h2>
-    </section>
-    <section class="item" id="sec7">
-        <h2 class="num">7</h2>
-    </section>
-    <section class="item" id="sec8">
-        <h2 class="num">8</h2>
-    </section>
-    <section class="item" id="sec9">
-        <h2 class="num">9</h2>
-    </section>
-  </main>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-  <script src="./script/14.js"></script>
+        </div>  <!-- panels-container -->
+        <!-- <section class="wrap pr">
+            <div class="content1">AAA</div>
+          </section> -->
+      </section><!-- panels -->
+
+    </main>
+
+
+  <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js"></script>
+
+  <script src="ex.js"></script>
+
+  <!-- <script src="anchor.js"></script> -->
 </body>
+
 </html>
