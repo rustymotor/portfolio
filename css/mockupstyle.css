@@ -1,0 +1,49 @@
+@import url(https://qwerewqwerew.github.io/source/style/reset.css);
+section{
+    height:90vh;
+    padding-top:10vh;
+}
+.sec3 .left{
+    width:50%;
+    height:100%;
+
+    background:skyblue;
+}
+.left{
+    width:50%;
+    height:100%;
+    background-color: skyblue;
+}
+.mockup.pc{
+    width:100%;
+    height:min(52rem,100%);
+    z-index:3;
+}
+.mockup.mobile{
+    width:min(25rem,100%);
+    height:30rem;
+    left:65%;
+    z-index:4;
+}
+.mockup.pc .mask{
+    background-color: red;
+    width:calc(100% - 80px);
+    top:40px;
+    left:40px;
+    height:100%;
+    z-index:999;
+    overflow:hidden;
+}
+.mockup.mobile .mask{
+    background-color: red;
+    width:22rem;
+    height:38.5rem;
+    top:5rem;
+    left:1.7rem;
+    border-radius:1.6rem;
+    z-index:999;
+    overflow:hidden;
+}
+
+.left .screen{width:100%;}
+.left .device{width:100%;}
