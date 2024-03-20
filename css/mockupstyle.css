@@ -2,27 +2,25 @@
 .sec3{
     height:90vh;
     padding-top:10vh;
+    margin-left:30vw;
 }
 .sec3 .left{
-    width:50%;
+    position:absolute;
+    width:45%;
     height:100%;
-
-    background:skyblue;
-}
-.left{
-    width:50%;
-    height:100%;
-    background-color: skyblue;
+    left:55%;
 }
 .mockup.pc{
     width:100%;
-    height:min(52rem,100%);
+    height:min(52rem,70%);
     z-index:3;
 }
 .mockup.mobile{
-    width:min(25rem,100%);
+    position:absolute;
+    width:min(25rem,70%);
     height:30rem;
-    left:65%;
+    top:30%;
+    left:75%;
     z-index:4;
 }
 .mockup.pc .mask{
