@@ -1,4 +1,4 @@
-gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
+// gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 const sections=gsap.utils.toArray('.panel');
 const main = document.querySelector('main');
 

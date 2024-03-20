@@ -17,9 +17,9 @@ const aniDown=(screen)=>{
     gsap.to(screen,{y:0,duration:0.5});
 };
 ScrollTrigger.create({
-    trigger:'body',
-    start:'top top',
-    end:'bottom bottom',
+    trigger:'.sec3',
+    start:'top bottom',
+    end:'bottom top',
     markers:true,
     scrub:0.5,
     onEnter:()=>{

@@ -1,51 +1,51 @@
 header{
-    background-color: none;
-    line-height:5rem;
+  background-color: none;
+  line-height:5rem;
 }
 #lottie{
-    width:10rem;
-    height:10rem;
+  width:10rem;
+  height:10rem;
 }
 
-  
-  #masthead {
-    width:100%;
-    position: fixed;
-    display: flex;
-    z-index: 1;
-    justify-content: space-between;
-  }
-  #masthead a {
-    position:relative;
-    text-decoration: none;
-    font-size:1.7rem;
-    padding:0 3.2rem;
-  }
-  #masthead a:nth-of-type(1):after,
-  #masthead a:nth-of-type(2):after,
-  #masthead a:nth-of-type(3):after,
-  #masthead a:nth-of-type(4):after,
-  #masthead a:nth-of-type(5):after{
-    position:absolute;
-    width:1.3rem;
-    height:11rem;
-    top:-2rem;
-    right:1rem;
-    font-size:1rem;
-    color:var(--text3);
-  }
-  #masthead a:nth-of-type(1):after{
-    content:'01';
-  }
-  #masthead a:nth-of-type(2):after{
-    content:'02';
-  }
-  #masthead a:nth-of-type(3):after{
-    content:'03';
-  }
-  #masthead a:nth-of-type(4):after{
-    content:'04';
-  }
-  #masthead a:nth-of-type(5):after{
-    content:'05';
-  }
+
+#masthead {
+  width:100%;
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  justify-content: space-between;
+}
+#masthead a {
+  position:relative;
+  text-decoration: none;
+  font-size:1.7rem;
+  padding:0 3.2rem;
+}
+#masthead a:nth-of-type(1):after,
+#masthead a:nth-of-type(2):after,
+#masthead a:nth-of-type(3):after,
+#masthead a:nth-of-type(4):after,
+#masthead a:nth-of-type(5):after{
+  position:absolute;
+  width:1.3rem;
+  height:11rem;
+  top:-2rem;
+  right:1rem;
+  font-size:1rem;
+  color:var(--text3);
+}
+#masthead a:nth-of-type(1):after{
+  content:'01';
+}
+#masthead a:nth-of-type(2):after{
+  content:'02';
+}
+#masthead a:nth-of-type(3):after{
+  content:'03';
+}
+#masthead a:nth-of-type(4):after{
+  content:'04';
+}
+#masthead a:nth-of-type(5):after{
+  content:'05';
+}
