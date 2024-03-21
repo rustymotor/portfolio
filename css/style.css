@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
 .fx {
   display: flex;}
 .pr {
@@ -66,18 +67,18 @@ main {
   height: 100%;
   background-color: #eff5ff;
   top: 0;
-  right: -60rem;
+  right: -53rem;
   z-index: -3;
 }
 
 .visual {
   position: absolute;
-  top: 0%;
+  bottom: 0%;
   right: 10%;
 }
 .visual > img {
   margin-top: 5rem;
-  width: 46rem;
+  width: 50rem;
 }
 
 #panel-1 .title {
@@ -89,7 +90,7 @@ main {
 
 #panel-1 .title h1 {
   position: absolute;
-  font-size: 9rem;
+  font-size: 12rem;
   font-weight: 400;
   line-height: 13rem;
   width: 100rem;
@@ -102,7 +103,8 @@ main {
 }
 
 #panel-1 .title a {
-  border: 1px solid #000;
+  font-size:1.7rem;
+  border: 1px solid #737373;
   padding: 20px 50px;
   text-align: center;
   width: 15rem;
@@ -142,12 +144,12 @@ main {
 }
 .visual2 {
   position: absolute;
-  top: 5%;
+  bottom:0;
   right: 20%;
   z-index: 100000;
 }
 .visual2 > img {
-  width: 50rem;
+  width: 55rem;
 }
 button {
   width: 10rem;
@@ -208,7 +210,7 @@ button {
 
 .project1 .pj1_visual {
   position: absolute;
-  background: url(../img/pj12.jpg) top/cover no-repeat;
+  background: url(../img/pj1.jpg) top/cover no-repeat;
   width: 100rem;
   height: 100vh;
   top: 0;
@@ -243,6 +245,7 @@ button {
   margin-bottom: 2rem;
 }
 .pj1_box p {
+  font-size: 2rem;
   width: 70%;
 }
 .pj1_anchor{
@@ -251,6 +254,7 @@ button {
 
 }
 .pj1_anchor a{
+  font-size: 1.4rem;
   padding:1rem;
   border:1px solid black;
   border-radius:3rem;
@@ -298,7 +302,7 @@ button {
 .project2 .pj2_visual {
   position: absolute;
   background: url(../img/pj2.jpg) top/contain no-repeat;
-  width: 100rem;
+  width: 150rem;
   height: 100vh;
   top: 0;
   left: 10%;
@@ -328,6 +332,7 @@ button {
   margin-bottom: 2rem;
 }
 .pj2_box p {
+  font-size: 2rem;
   width: 70%;
 }
 .pj2_mockup {
@@ -369,3 +374,5 @@ button {
   width: 69%;
   height: 44%;
 }
+
+/* panel 7-------------스킬바 -------------------------------000 */
