@@ -1,4 +1,4 @@
-@import url(https://qwerewqwerew.github.io/source/style/reset.css);
+
 .sec3{
     height:90vh;
     padding-top:10vh;
@@ -8,7 +8,18 @@
     position:absolute;
     width:45%;
     height:100%;
-    left:55%;
+    left:65%;
+}
+.sec4{
+    height:90vh;
+    padding-top:10vh;
+    margin-left:30vw;
+}
+.sec4 .left{
+    position:absolute;
+    width:45%;
+    height:100%;
+    left:35%;
 }
 .mockup.pc{
     width:100%;
@@ -24,16 +35,14 @@
     z-index:4;
 }
 .mockup.pc .mask{
-    background-color: red;
     width:calc(100% - 80px);
     top:40px;
     left:40px;
-    height:100%;
+    height:80%;
     z-index:999;
     overflow:hidden;
 }
 .mockup.mobile .mask{
-    background-color: red;
     width:22rem;
     height:38.5rem;
     top:5rem;

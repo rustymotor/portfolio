@@ -6,3 +6,11 @@
     autoplay:true,
     path:'./LogoInitial.json',
 })
+
+ const lottie2 = bodymovin.loadAnimation({
+    container:document.querySelector('#lottie2'),
+    renderer:'svg',
+    loop:true,
+    autoplay:true,
+    path:'./circle2.json',
+})

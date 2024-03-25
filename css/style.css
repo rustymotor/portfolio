@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+:root {
+  --color1:#eff5ff;
+  --color2:#81ccfe;
+  --bg-color: #2E3D4B;
+  --text-color: #81ccfe;
+}
 .fx {
   display: flex;}
 .pr {
@@ -24,20 +30,41 @@ body {
 a {
   color: black;
 }
+/* arimo 폰트 적용 */
+
+#panel-3 .project_box h2,
+#panel-7 h2,
+#panel-8 h2,
+#panel-9 h2,
+.chart p{
+  font-family:'Arimo', sans-serif;
+}
+#panel-1 .title span{
+  color:var(--color2);
+}
+#panel-2 .text1 h3 {
+  font-family:'arimo', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight:800;
+}
+
 main {
   width: 100%;
-  height: 100vh;
+  height: 1px;
 }
-#panels {
-  width: 100%;
-  height: 100vh;
-  z-index: -2;
+#panels{
+  height:1px;
+  width:100vw;
+}
+body{
+  height:1px;
+  width:100%;
 }
 #panels #panels-container {
   width: 100%;
   height: 100vh;
   display: flex;
-
   padding: 0;
   overflow: hidden;
   z-index: -2;
@@ -47,10 +74,9 @@ main {
   position: relative;
   min-width: 100vw;
   height: 100vh;
-  /* overflow: hidden; */
   color: #333;
   text-align: left;
-  z-index: -2;
+  
 }
 
 #panel-5 {
@@ -60,71 +86,61 @@ main {
 
 /*---------------------panel----------------  */
 
-#panel-1:after {
+#panel-1::after {
   position: absolute;
   content: "";
   width: 140rem;
   height: 100%;
   background-color: #eff5ff;
   top: 0;
-  right: -53rem;
-  z-index: -3;
+  right: -45rem;
+  z-index:-3000;
 }
 
 .visual {
   position: absolute;
   bottom: 0%;
-  right: 10%;
+  right: 5%;
 }
 .visual > img {
+  object-fit: cover;
   margin-top: 5rem;
-  width: 50rem;
+  width: 53rem;
 }
 
 #panel-1 .title {
   position: relative;
   height: 34rem;
   top: 30%;
-  left: 10%;
+  left: 22%;
 }
 
-#panel-1 .title h1 {
-  position: absolute;
-  font-size: 12rem;
-  font-weight: 400;
-  line-height: 13rem;
-  width: 100rem;
-}
+
 
 #panel-1 .title .fx {
   position: absolute;
   bottom: 0;
   gap: 5rem;
+  z-index:1000000;
 }
 
 #panel-1 .title a {
   font-size:1.7rem;
-  border: 1px solid #737373;
+  border: 1px solid #bebebe;
   padding: 20px 50px;
   text-align: center;
   width: 15rem;
+  box-shadow:10px 3px 3px rgba(135, 135, 135, 0.1);
 }
-
 /* panel-2 */
 
 #panel-2 {
   padding: 8rem 0 0 5rem;
-  z-index: -2;
+  z-index: 10;
 }
-#panel-2 h2 {
-  font-size: 5rem;
-  font-weight: 500;
-  margin: 4rem 0 2rem 0rem;
-  line-height: 7rem;
-  color: rgb(177, 177, 177);
-}
+
 #panel-2 .text1 {
-  padding: 0 0 0 2rem;
+  padding: 7rem 0 0 20rem;
 }
 #panel-2 .text1 div div {
   padding: 5rem 0 0 0;
@@ -132,21 +148,17 @@ main {
 #panel-2 .text1 .fx {
   gap: 16rem;
 }
-#panel-2 .text1 h3 {
-  font-size: 3rem;
-  font-style: italic;
-  margin-bottom: 2rem;
-}
+
 #panel-2 .text1 li {
   font-size: 1.5rem;
   line-height: 2.4rem;
   margin-left: 2rem;
 }
 .visual2 {
-  position: absolute;
-  bottom:0;
-  right: 20%;
-  z-index: 100000;
+  position:absolute;
+  top:10%;
+  left:40%;
+  z-index: 100;
 }
 .visual2 > img {
   width: 55rem;
@@ -175,43 +187,48 @@ button {
 }
 /* 3번 패널 ------------------------------------------ */
 .project_box {
-  width: 100rem;
+  position:relative;
+  width: 150rem;
   height: 10rem;
-  top: 20%;
+  top: 30%;
   left: -10%;
 
   z-index: 10;
 }
 .project_box h2 {
-  font-size: 6rem;
-  font-weight: 500;
+  position:absolute;
+  font-size: 8rem;
+  font-weight: 400;
   background-color: none;
-  margin: 0 0 5rem 20rem;
+  margin: 0 0 -2rem 20rem;
+  z-index:10;
 }
 .project_box .fx {
+  position:absolute;
+  top:60%;
   gap: 3rem;
 }
 .project_box .pj1,
 .project_box .pj2,
 .project_box .pj3 {
-  width: 75rem;
-  height: 25rem;
+  width: 37rem;
+  height: 33rem;
   background-color: green;
 }
 .project_box .pj1 {
   background: url(../img/phonehand.jpg) top/cover no-repeat;
 }
 .project_box .pj2 {
-  background: url(../img/bluephone.jpg) top/contain no-repeat;
+  background: url(../img/smallbox2.jpg) top/cover no-repeat;
 }
 .project_box .pj3 {
-  background: url(../img/65968.jpg) top/contain no-repeat;
+  background: url(../img/smallbox3.jpg) top/cover no-repeat;
 }
 
 .project1 .pj1_visual {
   position: absolute;
   background: url(../img/pj1.jpg) top/cover no-repeat;
-  width: 100rem;
+  width: 120rem;
   height: 100vh;
   top: 0;
   left: 50%;
@@ -221,8 +238,10 @@ button {
   /*사진옆에 project1글자*/
   position: absolute;
   content: "PROJECT1";
+  font-family:'arimo',sans-serif;
+  font-weight:100;
   top: 10%;
-  right: -10%;
+  right: -32%;
   font-size: 8rem;
   z-index: inherit;
 }
@@ -234,8 +253,8 @@ button {
   z-index: -1;
 }
 .pj1_box {
-  top: 30%;
-  left: 25%;
+  top: 40%;
+  left: 30%;
   width: 60rem;
   height: 40rem;
 }
@@ -246,6 +265,7 @@ button {
 }
 .pj1_box p {
   font-size: 2rem;
+  line-height:2.7rem;
   width: 70%;
 }
 .pj1_anchor{
@@ -256,7 +276,7 @@ button {
 .pj1_anchor a{
   font-size: 1.4rem;
   padding:1rem;
-  border:1px solid black;
+  border:1px solid rgb(211, 211, 211);
   border-radius:3rem;
 }
 .pj1_mockup {
@@ -305,26 +325,33 @@ button {
   width: 150rem;
   height: 100vh;
   top: 0;
-  left: 10%;
+  left: 20%;
   z-index: 3;
 }
 .project2 .pj2_visual:after {
   /*사진옆에 project1글자*/
   position: absolute;
   content: "PROJECT2";
+  font-family:'arimo',sans-serif;
   top: 10%;
-  right: -10%;
+  right: -5%;
   font-size: 8rem;
   z-index: 4;
 }
 .project2 .pj2_visual img {
   width: 100%;
 }
+#panel-6{
+  position:relative;
+  z-index:-1;
+}
 .pj2_box {
-  top: 30%;
-  left: 75%;
+  position:absolute;
+  top: 40%;
+  left: 105%;
   width: 60rem;
   height: 40rem;
+  z-index:6000000;
 }
 .pj2_box h2 {
   font-size: 4rem;
@@ -333,6 +360,7 @@ button {
 }
 .pj2_box p {
   font-size: 2rem;
+  line-height: 2.7rem;
   width: 70%;
 }
 .pj2_mockup {
@@ -374,5 +402,61 @@ button {
   width: 69%;
   height: 44%;
 }
+/* panel 6-------------스킬바 -------------------------------000 */
 
 /* panel 7-------------스킬바 -------------------------------000 */
+#panel-7>h2{
+  position:absolute;
+  font-size:8rem;
+  font-style:italic;
+  top:20%;
+  left:5%;
+}
+#panel-8>h2{
+  position:absolute;
+  font-size:8rem;
+  font-style:italic;
+  top:20%;
+  left:5%;
+}
+/* banner---------------------------------------------------- */
+/* banner---------------------------------------------------- */
+/* banner---------------------------------------------------- */
+
+.row img{
+  position:absolute;
+  top:15%;
+  left:30%;
+  width:50%;
+}
+
+#lightbox{
+  position:relative;
+  top:10%;
+  left:30%;
+  width:50%;
+  height:80%;
+  background-color: rgba(0,0,0,.7);
+  z-index:999;
+  display:none;
+  /* display:block; */
+}
+
+#lightboxImage{
+ width: 100%;
+ height: 100%;
+ z-index: 999;;
+}
+#lightboxImage img{
+  width:50rem;
+
+}
+#panel-9 h2{
+  position:absolute;
+  font-size:8rem;
+  font-style:italic;
+  top:20%;
+  left:5%;
+}
+/* 제목 애니메이션 */
+
