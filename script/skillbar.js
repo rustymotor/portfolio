@@ -5,11 +5,10 @@ $(function () {
 	var chart = $('.chart');
 	var chartOST = charts.offset().top;
 	// var excuted = false;
-	// console.log(excuted);
+
 	$(window).scroll(function () {
 		var currentSCT = $(this).scrollTop();
-    console.log(currentSCT);
-    console.log(chartOST + 'dd');
+  
 		// if (currentSCT >= chartOST) {
 		if (currentSCT >= 14300) {
 			if (!charts.hasClass('active')) {
@@ -49,9 +48,9 @@ const circles = document.querySelectorAll(".circular-pbar");
 
 circles.forEach((el) => {
   const counter = el.querySelector(".circular-pbar-counter"); //각 요소 내부에 있는 이거 찾아라
-  console.log(counter.textContent);
+
   const tg = counter.textContent + "%"; //counter에 있는 텍스트를 의미
-  console.log(tg);
+
   //counter.textContent = tg;
   const tm = gsap.timeline(
     //여러 개의 요소 타임라인을 하나로 묶는다.
@@ -70,7 +69,7 @@ circles.forEach((el) => {
     textContent: 0, //초기 텍스트 시작값
     modifiers: { //텍스트를 변환함
       textContent: (textContent) => {
-          console.log(textContent);
+        
         return textContent.toFixed(); //toFixed는 숫자열의 소숫점을 가져옴. 근데 안 넣어서 정수만 가져옴.
       },
     },

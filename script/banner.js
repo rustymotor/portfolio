@@ -6,7 +6,7 @@ pics.on('click',function(e){
     const bigLocation=$(this).attr("data-src");
     lightbox.css('display','block');
     lightboxImage.load(bigLocation);
-    console.log(lightboxImage);
+   
 })
 
 lightbox.on('click',function(){

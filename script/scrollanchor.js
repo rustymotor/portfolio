@@ -18,7 +18,7 @@ document.querySelectorAll(".anchor").forEach((anchor) => {
       );
     }
     
-    console.log('useful stuff!', y, e.target.getAttribute("href"));
+
     
     gsap.to(window, {
       scrollTo: {
@@ -45,8 +45,7 @@ tween = gsap.to(panels, {
     end: () => "+=" + (cont.scrollWidth - innerWidth),
     onUpdate: (self) => {
       // also useful!
-     // console.log(self.progress, '/1')
-     // console.log(window.scrollY, `/${document.body.scrollHeight - window.innerHeight}`)
+
     }
   }
 });

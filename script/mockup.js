@@ -77,19 +77,9 @@ const pcS3=pc3.querySelector('.sec3 .screen');
 const pcM3=pc3.querySelector('.sec3 .mask');
 const mobileS3=mobile3.querySelector('.sec3 .screen');
 const mobileM3=mobile3.querySelector('.sec3 .mask');
-//up
-// const ani3Up=(mask,screen)=>{
-//     let newH1=mask.clientHeight;
-//     let newH3=screen.clientHeight;
-//     let height=newH1 - newH3;
-//     gsap.to(screen,{y:height,duration:1})
-// }
-// //down
-// const ani3Down=(screen)=>{
-//     gsap.to(screen,{y:0,duration:0.5});
-// };
+
 ScrollTrigger.create({
-    trigger:'.sec3',
+    trigger:'.sec3', 
     start:'top bottom',
     end:'bottom top',
     // markers:true,

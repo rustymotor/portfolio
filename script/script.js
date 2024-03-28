@@ -1,6 +1,6 @@
 $(window).scroll(function () {
     var currentSCT = $(this).scrollTop();
-    console.log(currentSCT);
+   
     if (currentSCT >= 600) {
     $('.scrollright').fadeOut();
     }
@@ -63,7 +63,7 @@ addEventListener('mousemove',(e)=>{
 
 document.querySelectorAll('.panel>div').forEach((el)=>{
     let style=el.getAttribute('class');
-    console.log(style);
+  
     el.addEventListener('mouseover',()=>{
         tg.classList.add(style)
     });
@@ -88,7 +88,8 @@ function parallax(e){
 //문자열 분해
 const text=document.querySelector('.style10>h2').innerText;
 let testsplit = [...text];
-console.log(testsplit);
+
+
 const sp='<span>'
 const an='</span>'
 let textArrr=testsplit.map((char)=>{
