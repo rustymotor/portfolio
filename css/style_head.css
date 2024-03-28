@@ -11,7 +11,7 @@ header{
 #lottie:after{
   position:absolute;
   content:'CIH';
-  color:#0a66f9;
+  color:var(--color2);
   font-size:2rem;
   font-weight:700;
   top:50%;
@@ -20,7 +20,15 @@ header{
 }
 #lottie2{
   position:absolute;
-  top:-30%;
+  top:-45%;
+  left:-30%;
+  width:200rem;
+  height:200rem;
+  z-index:-100;
+}
+#lottie3{
+  position:absolute;
+  top:-45%;
   left:-30%;
   width:200rem;
   height:200rem;

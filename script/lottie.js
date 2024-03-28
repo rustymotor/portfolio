@@ -14,3 +14,17 @@
     autoplay:true,
     path:'./circle2.json',
 })
+ const lottie3 = bodymovin.loadAnimation({
+    container:document.querySelector('#lottie_profile'),
+    renderer:'svg',
+    loop:true,
+    autoplay:true,
+    path:'./jumpingboy.json',
+})
+ const lottie4 = bodymovin.loadAnimation({
+    container:document.querySelector('#lottie4'),
+    renderer:'svg',
+    loop:true,
+    autoplay:true,
+    path:'./deskman.json',
+})

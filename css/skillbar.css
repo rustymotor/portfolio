@@ -63,6 +63,12 @@ circle {
 .charts .chart:nth-child(4) circle {
 	stroke: #84c0ff;
 }
+.charts .chart:nth-child(5) circle {
+	stroke: #84c0ff;
+}
+.charts .chart:nth-child(6) circle {
+	stroke: #84c0ff;
+}
 
 section {
 	height: 100vh;

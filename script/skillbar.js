@@ -3,7 +3,7 @@
 $(function () {
 	var charts = $('.charts');
 	var chart = $('.chart');
-	var chartOST = chart.offset().top - 500;
+	var chartOST = charts.offset().top;
 	// var excuted = false;
 	// console.log(excuted);
 	$(window).scroll(function () {
@@ -11,7 +11,7 @@ $(function () {
     console.log(currentSCT);
     console.log(chartOST + 'dd');
 		// if (currentSCT >= chartOST) {
-		if (currentSCT >= 9600) {
+		if (currentSCT >= 14300) {
 			if (!charts.hasClass('active')) {
 				animateChart();
 				charts.addClass('active');
