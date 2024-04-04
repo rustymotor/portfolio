@@ -225,7 +225,7 @@ const fn5 = () => {
 		//첫번째는 요소기준, 두번째는 윈도우기준
 		start: 'left top',
 		end: 'left 100%',
-		markers:true,  //화면에 가이드선 표시
+		//markers:true,  //화면에 가이드선 표시
 		id:'박스5',
 		scrub:1,
 		},
