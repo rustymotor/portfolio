@@ -521,7 +521,7 @@ $(function () {
 		var currentSCT = $(this).scrollTop();
   
 		// if (currentSCT >= chartOST) {
-		if (currentSCT >= 14000) {
+		if (currentSCT >= 16000) {
 			if (!charts.hasClass('active')) {
 				animateChart();
 				charts.addClass('active');
