@@ -1277,7 +1277,7 @@ line {
 content:'';
 position:absolute;
 background: url(../img/star_soft.png) top/contain;
-top:-10%;
+top:0%;
 right:-30%;
 width:10rem;
 height:10rem;
@@ -1289,7 +1289,7 @@ content:'';
 position:absolute;
 background: url(../img/star_soft.png) top/contain;
 top:-100%;
-right:-30%;
+right:-35%;
 width:6vh;
 height:6vh;
 z-index:-1;
