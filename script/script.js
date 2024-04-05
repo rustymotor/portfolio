@@ -223,11 +223,11 @@ const fn5 = () => {
 		{
 		trigger:'.pj1_box',
 		//첫번째는 요소기준, 두번째는 윈도우기준
-		start: '1000% 30%',
-		end: '1100% 100%',
+		start: '1100% 60%',
+		end: '1200% 100%',
 		//markers:true,  //화면에 가이드선 표시
 		id:'박스5',
-		// scrub:1,
+		scrub:1,
 		},
 		y:100,
 		opacity:0
