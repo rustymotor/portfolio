@@ -956,23 +956,27 @@ button {
 #panel-12 .contact{
   position:absolute;
   top:25vh;
-  width:50vh;
   height:50vh;
   left:50%;
-  align-items: center;
+  transform:translateX(-50%);
   z-index:5;
 
 }
 .contact h2{
   top:-30%;
+  width:50vw;
   font-size:9vh;
   font-style:italic;
   margin-bottom:4vh;
- 
+
+  text-align:center;
 }
 .contact p{
-  font-size:2.5vh;
+  font-size:3vh;
   margin-top:1vh;
+  width:50vw;
+  text-align:center;
+
 }
 .contact p:nth-child(4){
   margin-top:2rem;
@@ -984,9 +988,12 @@ button {
   width:30vw;
 }
 #panel-12 .title .fx{
-  margin:3vh 0 0 10vh;
+  margin:3vh 0 0 28vh;
   gap: 5vh;
   z-index:1000000;
+
+  text-align:center;
+  padding-left:20rem;
 }
 
 #panel-12 .title a {
@@ -994,7 +1001,8 @@ button {
   border: 1px solid #bebebe;
   padding: 2vh 5vh;
   text-align: center;
-  width: 24vw;
+  width: 8vw;
+  
   box-shadow:10px 3px 3px rgba(135, 135, 135, 0.1);
 }
 .markers{

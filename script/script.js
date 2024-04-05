@@ -217,17 +217,17 @@ const fn4 = () => {
 };
 const fn5 = () => {
 	gsap.from('.pj1_box',{
-		x: () => window.innerWidth,
+		// x: () => window.innerWidth,
 		ease: 'none',
 		scrollTrigger:
 		{
 		trigger:'.pj1_box',
 		//첫번째는 요소기준, 두번째는 윈도우기준
-		start: 'left top',
-		end: 'left 100%',
+		start: '1000% 30%',
+		end: '1100% 100%',
 		//markers:true,  //화면에 가이드선 표시
 		id:'박스5',
-		scrub:1,
+		// scrub:1,
 		},
 		y:100,
 		opacity:0
