@@ -626,7 +626,7 @@ button {
 }
 #panel-9{
   position:relative;
-  z-index:-1;
+  z-index:-2;
 }
 
 .sec2{
@@ -1662,6 +1662,9 @@ iframe{
 .figma_word{
   width:40rem;
 }
+.figma_word .fx{
+  gap:10vh;
+}
 .figma_word a{
   font-size:1.8vh;
   border: 1px solid #ffc6c6;
@@ -1669,7 +1672,7 @@ iframe{
   line-height:8rem;
   padding: 1.3rem 2rem;
   text-align: center;
-  width: 20vh;
+  width: 40rem !important;
   box-shadow:10px 3px 3px rgba(135, 135, 135, 0.1);
   animation:textani3 3s linear infinite;
 }
