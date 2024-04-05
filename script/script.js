@@ -227,7 +227,7 @@ const fn5 = () => {
 		end: '1200% 100%',
 		//markers:true,  //화면에 가이드선 표시
 		id:'박스5',
-		scrub:1,
+		// scrub:1,
 		},
 		y:100,
 		opacity:0
