@@ -236,13 +236,14 @@ body{
 .visual > img {
   position:absolute;
   object-fit: cover;
-  height: 80vh;
+  height: 87vh;
   z-index:1;
+  bottom:8%;
 }
 .zipper_line{
   position:absolute;
   width:35vw;
-  margin:80vh 0 0 4vw;
+  margin:85vh 0 0 4vw;
   overflow:hidden;
 }
 .zipper_line>img{
@@ -1206,7 +1207,7 @@ line {
   position:absolute;
   display:flex;
   gap:1rem;
-  top:87%;
+  top:92%;
   right:8%;
   color:#000;
   font-size:1vh;
