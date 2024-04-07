@@ -375,7 +375,7 @@ const fn7x = () => {
         containerAnimation: tween,
         start: "120% 70%",
 		end: '140% 90%',
-		markers:true,  //화면에 가이드선 표시
+		//markers:true,  //화면에 가이드선 표시
 		scrub:1,
 		},
 
