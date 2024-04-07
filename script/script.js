@@ -249,7 +249,7 @@ const fn3 = () => {
         start: "left 70%",
 		end: 'center 90%',
 		// markers:true, 
-		scrub:1,
+		// scrub:1,
 		}
 
 	});
@@ -321,7 +321,7 @@ const fn5x = () => {
         start: "left 70%",
 		end: 'center 90%',
 		// markers:true,
-		scrub:1,
+		// scrub:1,
 		},
 
 	});
@@ -339,7 +339,7 @@ const fn6x = () => {
         start: "-50% 70%",
 		end: '0% 90%',
 		//markers:true,
-		scrub:1,
+		// scrub:1,
 		},
 
 	});
@@ -358,7 +358,7 @@ const fn7 = () => {
         start: "left 70%",
 		end: 'center 90%',
 		//markers:true,
-		scrub:1,
+		// scrub:1,
 		},
 
 	});
@@ -376,7 +376,7 @@ const fn7x = () => {
         start: "120% 70%",
 		end: '140% 90%',
 		//markers:true,  //화면에 가이드선 표시
-		scrub:1,
+		// scrub:1,
 		},
 
 	});
