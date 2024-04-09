@@ -197,7 +197,7 @@ body{
   height: 100vh;
   display: flex;
   padding: 0;
-  overflow: hidden;
+  
   z-index: -2;
 }
 
@@ -217,16 +217,6 @@ body{
 
 /*---------------------panel----------------  */
 
-/* #panel-1::after {
-  position: absolute;
-  content: "";
-  width: 140rem;
-  height: 100%;
-  background-color: #eff5ff;
-  top: 0;
-  right: -45rem;
-  z-index:-3000;
-} */
 .zipper{
   position:relative;
   height:100vh;
@@ -295,7 +285,6 @@ body{
   text-shadow:10px 3px 3px rgba(135, 135, 135, 0.1);
   
 }
-
 
 #panel-1 .title .fx {
   margin-top:0vh;
@@ -475,7 +464,7 @@ button {
 }
 .pj1_box h2:after{
   position:absolute;
-  content:'재설계 / 반응형';
+  content:'재설계  /  반응형';
   top:5.5%;
   left:27%;
   color:var(--color2);
@@ -1004,7 +993,7 @@ button {
   text-align:center;
 }
 .contact p{
-  font-size:3vh;
+  font-size:2vh;
   margin-top:1vh;
   width:50vw;
   text-align:center;
@@ -1403,7 +1392,7 @@ transform: scale(1.4);
   /* background-color: #81ccfe; */
   transform: scaleX(0);
   transition: transform 0.3s;
-  animation:textani2 1s linear infinite;
+  animation:textani2 2s linear infinite;
   z-index:-1;
   
 }
