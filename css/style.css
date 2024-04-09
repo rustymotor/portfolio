@@ -464,7 +464,7 @@ button {
 }
 .pj1_box h2:after{
   position:absolute;
-  content:'재설계  /  반응형';
+  content:'리디자인  /  반응형';
   top:5.5%;
   left:27%;
   color:var(--color2);
@@ -901,7 +901,7 @@ button {
 
 }
 
-/* 제목 애니메이션 */
+
 /* 마우스 애니메이션 */
 .cursor{
   position:fixed;
