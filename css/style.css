@@ -270,7 +270,7 @@ body{
 #panel-1 .title {
   position: absolute;
   height: 20vw;
-  top: 30%;
+  top: 40%;
   left: 25%;
   z-index:10;
 }

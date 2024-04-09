@@ -116,43 +116,6 @@ document.querySelectorAll('.panel>div').forEach((el)=>{
     });
 })
 
-//텍스트 사라짐
-//문자열 분해
-// const text=document.querySelector('.style11>h2').innerText;
-// let testsplit = [...text];
-
-
-// const sp='<span>'
-// const an='</span>'
-// let textArrr=testsplit.map((char)=>{
-//     return sp+char+an;
-// }).join('');
-
-// document.querySelector('.style11>h2').innerHTML=textArrr;
-
-// let tl = gsap.timeline({
-//     repeat:-1, //무한반복
-//     repeatDelay:0.5, //반복딜레이
-//     yoyo:true,
-//     scrollTrigger:{
-//         trigger:'.style11',
-//         // markers:true,
-//         start:'top 50%',
-//         end:'+=500', //상대거리
-//     }
-
-// });
-// tl.to('.style11>h2 span',{
-//     opacity:0,
-//     y:50,
-//     rotateY:180,
-//     duration:0.5,
-//     stagger:0.1,
-
-// })
-//제목 지퍼
-//패럴렉스/스크롤트리거 등장
-
 //스크롤앵커
 // gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
 
