@@ -1,0 +1,37 @@
+@media screen and (max-width:768px) {}
+
+@media screen and (min-width:769px) and (max-width:1023px) {
+    #panel-1 .title:before {
+        
+        content: '';
+        position: absolute;
+        background: url(../img/star_soft.png) top/contain;
+        top: 0%;
+        right: -30%;
+        width: 10rem;
+        height: 10rem;
+        z-index: 1;
+        animation:none;
+        display: none;
+    }
+
+    #panel-1 .title h1:before {
+        display: none;
+    }
+
+    .visual>img {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1300px) {
+    #panel-1 .title:before {
+        background: none;
+    }
+
+    #panel-1 .title h1:before {
+        background: none;
+    }
+}
+
+@media screen and (min-width:1301px) {}

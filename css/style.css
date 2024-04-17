@@ -1675,3 +1675,11 @@ iframe{
     box-shadow:  inset 0 0 0 0 rgba(244, 175, 167, 0),  inset 0 0 0 4rem rgba(202, 23, 23, 0);
 }
 }
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: #e3e3e3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #84c7ff;
+}
