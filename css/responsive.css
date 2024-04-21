@@ -6,6 +6,9 @@
         overflow:hidden;
         display:none;
     }
+    body {
+        overflow-y: scroll;
+      }
     ::-webkit-scrollbar {
         width: 15px;
         background-color: #e3e3e3;
@@ -157,6 +160,10 @@
     .style10{
         display:none;
     }
+    body {
+        overflow-y: scroll;
+      }
+      
     ::-webkit-scrollbar {
         width: 15px;
         background-color: #e3e3e3;
@@ -165,7 +172,7 @@
       ::-webkit-scrollbar-thumb {
         background: #84c7ff;
       }
-      
+
 
 @media screen and (min-width:1401px) {
     #panel-1 .title:before{
@@ -192,5 +199,7 @@
         
         }
 
-          
+        body {
+            overflow-y: scroll;
+          }
 }}
