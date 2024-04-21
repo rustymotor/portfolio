@@ -6,6 +6,15 @@
         overflow:hidden;
         display:none;
     }
+    ::-webkit-scrollbar {
+        width: 15px;
+        background-color: #e3e3e3;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #84c7ff;
+      }
+      
 }
 
 /* @media screen and (min-width:769px) and (max-width:1023px) {
@@ -148,7 +157,15 @@
     .style10{
         display:none;
     }
-
+    ::-webkit-scrollbar {
+        width: 15px;
+        background-color: #e3e3e3;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #84c7ff;
+      }
+      
 
 @media screen and (min-width:1401px) {
     #panel-1 .title:before{
@@ -174,4 +191,13 @@
         animation: star 3s ease-in-out infinite;
         
         }
+        ::-webkit-scrollbar {
+            width: 15px;
+            background-color: #e3e3e3;
+          }
+          
+          ::-webkit-scrollbar-thumb {
+            background: #84c7ff;
+          }
+          
 }}
