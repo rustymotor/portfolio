@@ -14,9 +14,9 @@
         background-color: #e3e3e3;
       }
       
-    ::-webkit-scrollbar-thumb {
-      background: #84c7ff;
-    }
+      ::-webkit-scrollbar-thumb {
+        background: #84c7ff;
+      }
       
 }
 

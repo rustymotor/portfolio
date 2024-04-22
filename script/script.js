@@ -148,25 +148,6 @@ document.querySelectorAll(".anchor").forEach((anchor) => {
 });
 
 
-/* Panels */
-const cont = document.querySelector("#panels-container");
-const panels = gsap.utils.toArray("#panels-container .panel");
-
-tween = gsap.to(panels, {
-  x: () => -1 * (cont.scrollWidth - innerWidth),
-  ease: "none",
-  scrollTrigger: {
-    trigger: "#panels-container",
-    pin: true,
-    start: "left left",
-    scrub: 1,
-    end: () => "+=" + (cont.scrollWidth - innerWidth),
-    onUpdate: (self) => {
-      // also useful!
-
-    }
-  }
-});
 //제목 지퍼
 //패럴렉스/스크롤트리거 등장
 const fn1 = () => {
@@ -577,3 +558,24 @@ $('.frame').on('click',function(){
 $('.figma_click').on('click',function(){
 	$('.figma_click').css('display','none');
 })
+
+
+/* Panels */
+const cont = document.querySelector("#content");
+const panels = gsap.utils.toArray("#content .panel");
+
+tween = gsap.to(panels, {
+  x: () => -1 * (cont.scrollWidth - innerWidth),
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#content",
+    pin: true,
+    start: "left left",
+    scrub: 1,
+    end: () => "+=" + (cont.scrollWidth - innerWidth),
+    onUpdate: (self) => {
+      // also useful!
+
+    }
+  }
+});
