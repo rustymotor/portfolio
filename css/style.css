@@ -607,9 +607,9 @@ button {
 .project3 .pj3_visual {
   position: absolute;
   background: url(../img/pj3.png) top/contain no-repeat;
-  width: 150rem;
-  height: 100vh;
-  top: 0;
+  width: 140rem;
+  height: 95vh;
+  top: 5%;
   left: -15%;
   z-index: 3;
 }
@@ -1233,7 +1233,7 @@ line {
   font-size:1vh;
   animation: scroll2 2s ease infinite;
   border:0.3rem solid var(--color2);
-  padding:0.5vh;
+  padding:1.5vh 0.5vh 0.5vh 1vh;
   z-index:11;
 }
 .scrollright:after{
@@ -1251,6 +1251,10 @@ line {
 {
   display:inline-block;
   z-index:1;
+}
+.scrollright>i{
+  padding-top:0.7rem;
+font-size:1.2rem;
 }
 @keyframes scroll2 {
   0% {

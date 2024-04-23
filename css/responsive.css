@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) {
+@media only screen and (max-width:768px) {
     nav{
         display:none;
     }
@@ -20,14 +20,14 @@
       
 }
 
-@media screen and (min-width:769px) and (max-width:1023px) {
+@media only screen and (min-width:769px) and (max-width:1023px) {
    
     .visual>img {
         display: none;
     }
 }
 
-@media screen and (min-width:1023px) and (max-width:1400px) {
+@media only screen and (min-width:1023px) and (max-width:1200px) {
     #panel-2{
         padding:15vw 0 0 20vw;
     }
@@ -174,7 +174,7 @@
       }
 
 
-@media screen and (min-width:1401px) {
+@media only screen and (min-width:1401px) {
     #panel-1 .title:before{
         content:'';
         position:absolute;
