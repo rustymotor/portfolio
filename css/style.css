@@ -1233,7 +1233,7 @@ line {
   font-size:1vh;
   animation: scroll2 2s ease infinite;
   border:0.3rem solid var(--color2);
-  padding:1.5vh 0.5vh 0.5vh 1vh;
+  padding:1.5vh 0.5vh 0vh 1vh;
   z-index:11;
 }
 .scrollright:after{
