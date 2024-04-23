@@ -2,6 +2,10 @@
     nav{
         display:none;
     }
+       
+    .visual>img {
+        display: none;
+    }
     .lottie2{
         overflow:hidden;
         display:none;
