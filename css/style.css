@@ -1268,6 +1268,15 @@ font-size:1.2rem;
   }
 } 
 
+.botline{
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:79vw;
+}
+.botline>img{
+  width:110vw;
+}
 #panel-2 h2.typewriter {
   position: relative;
   margin: 0;
