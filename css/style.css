@@ -466,7 +466,7 @@ button {
   position:absolute;
   content:'리디자인  /  반응형';
   top:5.5%;
-  left:27%;
+  left:23rem;
   color:var(--color2);
   font-weight:400;
   font-size:2rem;
@@ -475,7 +475,7 @@ button {
   position:absolute;
   content:'반응형';
   top:5.5%;
-  left:30%;
+  left:22rem;
   color:var(--color2);
   font-weight:400;
   font-size:2rem;
@@ -484,7 +484,7 @@ button {
   position:absolute;
   content:'SCSS';
   top:5.5%;
-  left:30%;
+  left:22rem;
   color:var(--color2);
   font-weight:400;
   font-size:2rem;

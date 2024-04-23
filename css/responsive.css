@@ -20,14 +20,14 @@
       
 }
 
-/* @media screen and (min-width:769px) and (max-width:1023px) {
+@media screen and (min-width:769px) and (max-width:1023px) {
    
     .visual>img {
         display: none;
     }
-} */
+}
 
-@media screen and (min-width:769px) and (max-width:1400px) {
+@media screen and (min-width:1023px) and (max-width:1400px) {
     #panel-2{
         padding:15vw 0 0 20vw;
     }
@@ -104,7 +104,7 @@
     .project3 .pj3_visual {
         position: absolute;
         background: url(../img/pj3.png) top / contain no-repeat;
-        width: 150rem;
+        width: 130rem;
         height: 100vh;
         top: 0;
         left: -0%;
